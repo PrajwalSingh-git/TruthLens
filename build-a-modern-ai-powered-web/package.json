@@ -1,0 +1,14 @@
+{
+  "name": "truthlens-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TruthLens AI - AI Fake News & Propaganda Detector hackathon project",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+}
