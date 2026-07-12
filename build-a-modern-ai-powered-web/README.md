@@ -1,6 +1,6 @@
 # TruthLens AI
 
-TruthLens AI is a modern AI-powered fake news and propaganda detector built for a 24-hour hackathon. It combines a futuristic cybersecurity product UI with a FastAPI analysis service that can use OpenAI structured JSON responses or a deterministic fallback engine for demos.
+TruthLens AI is a modern AI-powered fake news and propaganda detector. It combines a futuristic cybersecurity product UI with a FastAPI analysis service that can use OpenAI structured JSON responses or a deterministic fallback engine for demos.
 
 ## Product Focus
 
@@ -152,13 +152,3 @@ The backend prompt instructs the model to act as a misinformation and propaganda
 3. Build command: `pip install -r requirements.txt`.
 4. Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`.
 5. Add `OPENAI_API_KEY`, `OPENAI_MODEL`, and `ALLOWED_ORIGINS`.
-
-## Hackathon Demo Script
-
-1. Open the landing page and click Analyze News.
-2. Paste a suspicious headline or use the sample content.
-3. Show the animated credibility score, propaganda radar, and suspicious phrase highlights.
-4. Use Phrase Intelligence to explain why highlighted language is suspicious.
-5. Export a JSON report and show local analysis history.
-6. Open the browser extension mockup to show the future product vision.
-7. Explain that the backend can run with OpenAI, while fallback heuristics make the demo reliable offline.
