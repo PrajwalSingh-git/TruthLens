@@ -22,7 +22,7 @@ export function Home() {
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
             <div className="mb-6 inline-flex items-center gap-2 rounded-lg border border-cyan-300/25 bg-cyan-300/10 px-3 py-2 text-sm font-semibold text-cyan-100">
               <LockKeyhole className="h-4 w-4" />
-              AI misinformation defense system
+              Detect misinformation with transparent AI explanations.
             </div>
             <h1 className="font-display text-5xl font-bold leading-tight text-white text-balance sm:text-6xl lg:text-7xl">
               TruthLens AI
@@ -93,7 +93,7 @@ export function Home() {
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <h2 className="font-display text-3xl font-bold text-white">Startup-Grade Detection Stack</h2>
-            <p className="mt-2 text-slate-400">Built for a convincing hackathon demo and a real social-good product story.</p>
+            <p className="mt-2 text-slate-400">Built for a convincing demo and a real social-good product story.</p>
           </div>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
@@ -105,7 +105,7 @@ export function Home() {
                 <Icon className="mb-5 h-7 w-7 text-cyanfire" />
                 <h3 className="text-lg font-bold text-white">{feature}</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-400">
-                  Scores, explains, and visualizes misinformation risk in a format judges can understand quickly.
+                  Scores, explains, and visualizes misinformation risk in a format people can understand quickly.
                 </p>
               </article>
             );

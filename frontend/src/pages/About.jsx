@@ -4,7 +4,7 @@ import { Brain, CheckCircle2, Eye, Shield } from "lucide-react";
 export function About() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
-      <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyanfire">About Project</p>
+      <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyanfire">About</p>
       <h1 className="mt-2 font-display text-4xl font-bold text-white">AI for social good, built like a cybersecurity product.</h1>
       <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
         TruthLens AI helps people slow down before sharing viral claims. It combines prompt-engineered AI analysis with transparent risk indicators, phrase-level highlighting, and verification guidance.

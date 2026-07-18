@@ -32,22 +32,3 @@ export const features = [
   "Browser extension product concept",
   "Failsafe fallback analyzer"
 ];
-
-export const team = [
-  {
-    name: "AI/NLP Lead",
-    role: "Prompt engineering, scoring logic, responsible AI guardrails"
-  },
-  {
-    name: "Frontend Lead",
-    role: "Cybersecurity UI, dashboards, animation, responsive polish"
-  },
-  {
-    name: "Backend Lead",
-    role: "FastAPI, URL extraction, OpenAI integration, deployment"
-  },
-  {
-    name: "Research Lead",
-    role: "Misinformation taxonomy, demo stories, digital literacy framing"
-  }
-];
