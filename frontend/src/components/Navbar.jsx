@@ -7,7 +7,7 @@ const links = [
   ["/analyze", "Analyze"],
   ["/about", "About"],
   ["/extension", "Extension"],
-  ["/Creator", "Creator"]
+  ["/team", "Creator"]
 ];
 
 function RoutedLink({ to, children, activePath, onClick, className = "" }) {
