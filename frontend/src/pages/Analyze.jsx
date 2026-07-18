@@ -91,7 +91,7 @@ export function Analyze() {
       <div className="mb-8 flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyanfire">Analysis Dashboard</p>
-          <h1 className="mt-2 font-display text-4xl font-bold text-white">Misinformation Threat Console</h1>
+          <h1 className="mt-2 font-display text-4xl font-bold text-white">Analyze Content Credibility</h1>
           <p className="mt-3 max-w-3xl text-slate-300">
             Paste a headline, article, social post, or URL. TruthLens AI scores credibility and explains the manipulation signals it detects.
           </p>
