@@ -30,7 +30,7 @@ export const features = [
   "URL article extraction",
   "AI-generated verification guidance",
   "Browser extension product concept",
-  "Hackathon-ready fallback analyzer"
+  "Failsafe fallback analyzer"
 ];
 
 export const team = [

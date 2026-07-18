@@ -14,7 +14,7 @@ export function About() {
           [Shield, "Cybersecurity awareness", "Treats misinformation as an information security threat that targets public trust."],
           [Brain, "Responsible AI", "Returns structured explanations and verification tips instead of acting as an unquestionable truth authority."],
           [Eye, "Digital literacy", "Shows readers the emotional and rhetorical techniques that make posts persuasive."],
-          [CheckCircle2, "Hackathon practicality", "Works with OpenAI when available and uses a fallback analyzer when offline."]
+          [CheckCircle2, "Failsafe practicality", "Works with OpenAI when available and uses a fallback analyzer when offline."]
         ].map(([Icon, title, body]) => (
           <article key={title} className="glass rounded-lg p-6">
             <Icon className="mb-5 h-8 w-8 text-cyanfire" />
